@@ -10,8 +10,7 @@ margin-right: 50px;
 }
 
 body {
-  background-image: url("catalonie.jpg");
-  background-size: 1600px 500px
-  color: #003300
-
+  background-image: url("barcelona.jpg");
+  background-size: 1600px 1000px;
+  text-decoration-color: green
 }
