@@ -9,8 +9,37 @@ margin-right: 50px;
 
 }
 
-body {
+body{font-size:28px;}
+
+
+ {
   background-image: url("barcelona.jpg");
   background-size: 1600px 1000px;
   text-decoration-color: green
+}
+
+ul {list-style-type: none;
+margin: 10;
+padding: 10;
+overflow: hidden;
+background-color: green;
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
 }
