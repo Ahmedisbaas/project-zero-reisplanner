@@ -1,5 +1,5 @@
 .menu {
-  display: block;
+  display: flex;
   list-style:white;
 
 }
@@ -9,8 +9,37 @@ margin-right: 50px;
 
 }
 
-body {
-  background-image: url("https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwij6NKOv-DfAhVSJlAKHf6ZB0QQjRx6BAgBEAU&url=https%3A%2F%2Fyoo.rs%2Flifeofroom%2Fblog%2Fde-prachtige-stad-barcelona-1490961010.html&psig=AOvVaw28ZUrIjDgYpcwAFc_lD8ZM&ust=1547116200069400");
-  color: #003300
+body{font-size:28px;}
 
+
+ {
+  background-image: url("barcelona.jpg");
+  background-size: 1600px 1000px;
+  text-decoration-color: green
+}
+
+ul {list-style-type: none;
+margin: 10;
+padding: 10;
+overflow: hidden;
+background-color: green;
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
 }
