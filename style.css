@@ -12,8 +12,8 @@ margin-right: 50px;
 body{font-size:28px;}
 
 
- {
-  background-image: image(barcelona-main.jpg);
+ body{
+  background-image: url(https://www.riotgames.com/darkroom/1440/f5f167c525dd1f3989bcfe9ebd3c7995:a842310bd11ee602459b324d098e0e02/barcelona-main.jpg);
   background-size: 1600px 1000px;
   text-decoration-color: green
 }
@@ -39,8 +39,3 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
-li a:hover {
-  background-color: black;
-}
-<font>small</font>
